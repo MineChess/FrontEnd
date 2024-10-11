@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./font/MinecraftRegular-Bmg3.otf');
+}
+
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 0;
+  }
+  
+  #chessboard div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #chessboard .white {
+    background-color: #f0d9b5;
+  }
+  
+  #chessboard .black {
+    background-color: #b58863;
+  }
+  
+  #chessboard img {
+    width: 40px;
+    height: 40px;
+    cursor: grab;
+  }
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Minecraft;
+}
+
+#cont{
+    display: block;
+}
+
+#cont input{
+    margin: 5px;
+    padding:5px;
+    font-family: Minecraft;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    font-family: Minecraft;
+}
